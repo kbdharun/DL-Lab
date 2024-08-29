@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y python3 python3-pip git \
 COPY requirements.txt /app/
 
 # Install Python packages from the requirements file
-RUN pip3 install --no-cache-dir -r /app/requirements.txt
+RUN pip3 install --no-cache-dir --break-system-packages -r /app/requirements.txt
 
 # Set the working directory
 WORKDIR /app
