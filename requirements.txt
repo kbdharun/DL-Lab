@@ -1,0 +1,13 @@
+kaggle
+keras
+matplotlib
+nbconvert
+notebook
+numpy
+opendatasets
+pandas
+seaborn
+scikit-image
+scikit-learn
+tensorflow
+tensorflow_datasets
